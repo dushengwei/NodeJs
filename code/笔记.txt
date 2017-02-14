@@ -1,0 +1,47 @@
+开启一个http服务
+node server.js
+
+npm install npm -g     window中安装npm
+
+npm install express   web框架模块express
+
+package.json 位于模块的目录下，用于定义包的属性
+
+
+repl交互解释器
+$ node
+> 1 +4
+
+变量
+多行表达式
+下划线变量 var sum=_ 不过只能获取上一步的表达式结果
+
+ctrl+d 退出交互解释器repl
+
+
+回调函数   用于异步读取数据
+
+
+node 事件  
+node.js的事件可以注册相同的，而不会出现覆盖效果
+
+
+buffer       write写入的必须是字符串 所以写入int类型一般用下标
+
+
+stream
+
+模板系统
+        node.js有两个模板对象 1.export 模板公开的接口    2.从外部获取模板的接口
+    模块分为加载顺序：文件模块的缓存区  原生模块  文件模块          每次加载后缓存
+
+路由  request获取路径后 解析出来
+
+全局对象:  __获取当前文件的绝对路径 __dir获取当前文件的目录
+ process(描述当前进程状态的对象)  global对象的属性  exit 进程准备退出时触发   beforeExit  uncaughException  signal
+
+
+util.inherits(constructor, superConstructor)是一个实现对象间原型继承 的函数。
+
+
+文件系统
